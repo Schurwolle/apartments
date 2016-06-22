@@ -1,0 +1,1 @@
+jQuery('.slider-image').children('a').first().prop('href','srbija')

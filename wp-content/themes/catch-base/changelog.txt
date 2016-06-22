@@ -1,0 +1,189 @@
+== Change log ==
+
+= 2.8.1 =
+* Updated: Favicon and Web Clip Migration to Site Icon( Core Support )
+* Updated: Logo to Custom Logo( Core Support ) for WP version 4.5
+
+= 2.8 =
+* Fixed: Featured Page Content anchor attribute issue (title missing)
+* Updated: Sidr menu script to version 2.1.1.1
+* Updated: Meta viewport for better responsive support
+* Updated: Content Width Implementation
+* Updated: Theme Layout retrieval via function
+
+= 2.7.1 =
+* Bug Fixed: Genericons issue with To Top plugin
+* Bug Fixed: German language translation issue in de_DE.po and de_DE.mo file
+
+= 2.7 =
+* Added: Disable scrollup option.
+* Added: Social Icons for Phone, Handset, Cart, Cloud, Link( Custom Link )
+* Bug Fixed: Featured Slider not looping
+* Enhanced: Used antispambot() function on emails output on social icons
+* Updated: Disable Logo checkbox to hide Logo, Logo alt text and Logo url
+* Updated: Disable Featured Header Image to hide Header image size, Header image alt text, Header image url, Header image target
+* Updated: Disable Promotion headline to hide Promotion headline text, Promotion subheadline text, Promotion headline button text, Promotion headline button url, Promotion headline target
+* Updated: changed transport -> refresh to transport -> postMessage in Customizer API where feasible to make it more user friendly
+* Updated: Genericons to 3.4.1
+* Updated: Jetpack Scroll Pagination Option to enable infinite scroll in Reading Settings
+
+= 2.6 =
+* Added: Danish translation da_DK.po and da_DK.mo
+* Bug Fixed: Featured Slider Transition Effect Not Updating
+* Updated: Text Domain in style.css updated to catch-base
+* Updated: responsive menu script
+* Updated: responsive css to fix iphone6 issue
+
+= 2.5 =
+* Added: Lithuanian translation lt_LT.po and lt_LT.mo
+
+= 2.4.1 =
+* Bug Fixed: Breadcrumb css issue in IE 11 ( Reported by Mark )
+* Removed panel for featured content and featured slider for WordPress version greater than 4.2
+
+= 2.4 =
+* Bug Fixed: German language translation issue in de_DE.po and de_DE.mo file (Reported by mydreamin )
+* Bug Fixed: Changed esc_attr_e to echo esc_attr in searchform.php
+* Compatible with WordPress 4.3
+* Removed support for WordPress version less than 4.1
+* Updated codes to comply with deprecating PHP4 style constructors in WordPress 4.3
+* Updated text-domain
+
+= 2.3 =
+* Added: Hungarian translation hu_HU.po and hu_HU.mo
+
+= 2.2.1 =
+* Bug Fixed: Featured Page Slider
+
+= 2.2 =
+* Added: Missing keywords esc_attr_x in .pot file
+* Bug Fixed: Featured slider overlapping text and image issue
+* Bug Fixed: Escaped missing options in slider, social icons and breadcrumb implementation
+* Changed the link for html5shiv in readme file
+* Optimized Customizer Scripts
+* Updated: French translation fr_FR.po and fr_FR.mo
+* Updated: Handling of default hex color values of custom background color and custom header text color
+
+= 2.1 =
+* Added: Single Post navigation
+* Updated: German translation de_DE.po and de_DE.mo
+* Updated: Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+
+= 2.0 =
+* Added Featured Content "Display Content" option
+* Combined options for Featured Content and renamed the section From Featured Content Options to Featured Content in Customizer
+* Combined options for Featured Slider and renamed the section From Featured Slider Options to Featured Slider in Customizer
+* Removed unnecessary js from custom customizer js as support for WordPress versions less than 4.0 is not required
+* Updated Social Widget name
+* Updated: Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+
+= 1.9 =
+* Added: Support for Random Header Image
+* Bug Fixed: Removal of extra '/' in sub-categories in breadcrumb and updates in breadcrumb
+* Bug Fixed: Blog page featured image not overwriting default header image
+
+= 1.8 =
+* Added link in Featured page content title
+* Added German translation de_DE.po and de_DE.mo
+* Bug Fixed: Header Text only CSS change when not displaying site title and tagline
+* Bug Fixed: Metabox Options not saving properly
+* Bug Fixed: Fixed Slider height overlaps issue. Added Image Loader option on Featured Slider that specifies image-loading support
+
+= 1.7 =
+* Added Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+* Bug Fixed: Sidebar layout option
+* Bug Fixed: Social icon wrap
+* Bug Fixed: Featured page content showing full content instead of excerpt
+
+= 1.6 =
+* Added French translation fr_FR.po and fr_FR.mo
+* Bug Fixed: Content Layout issue with content_width
+* Bug Fixed: Removed assistive-text from Featured Demo Slider ( Reported by bydlo )
+* Bug Fixed: Added jquery.cycle2.js.map ( Reported by tualatinweb )
+
+= 1.5 =
+* Added Swedish translation sv_SE.po and sv_SE.mo
+* Bug Fixed: update keyword _nx:1,2,4c from _nx:1,2 in language file catchbase.pot
+* Bug Fixed: Skype Social icon and open link in new window for email issues
+
+= 1.4 =
+* Bug Fixed: Content Width Issue
+* Bug Fixed: Html is now allowed in Featured Content Headline and Sub-headline
+* Bug Fixed: Header Right Social Icon
+* Bug fixed: Check class logo left or logo right only when there is logo and logo is not disabled
+* Bug Fixed: Featured Content Layout Type css issue
+* Bug Fixed: added missing keyword _nx:1,2 and esc_html__ in language file catchbase.pot
+* Removed unnecessary file catchbase-menu.js
+* Removed duplicate class site-­header as ID found
+* Replaced the_title() with the_title_attribute() where title is used as attribute
+* Replaced all require_once with require
+
+= 1.3 =
+* Added Option in Enable Header Image: Excluding Home, Page/Post Featured Image
+* Added catchbase- prefix to some js handles as done in _s
+* Bug Fixed: undefined index $page_for_posts for Featured Header Image
+* Bug Fixed: featured-heading-wrap, $headline and $subheadline empty check in featured content
+* Bug Fixed: Featured Content missing classes entry-header and entry-title
+* Bug Fixed: Html is now allowed in Promotion Headline
+* Bug Fixed: Setting max-width for button, input, select, textarea
+* Changed get_page to get_post as get_page is depreciated
+* Fixed header text condition for Sidebar
+* Removed jquery cookie and its dependencies
+* Renamed "custom_meta_box_nonce" renamed to  "catchbase_custom_meta_box_nonce"
+* Sanitized custom metabox settings
+
+= 1.2.1 =
+* Added: Default color for Dark color scheme
+* Removed unnecessary class in excerpt featured image
+* Removed unnecessary mobile menu script
+* Renamed Page/Post Featured Image Size to Page/Post Featured Header Image Size
+* Bug Fixed: Classes for excerpt and content fixed in content.php
+* Bug Fixed: Default Options now saving on saving other options in customizer
+* Bug Fixed: Options Spelling Mistake
+
+= 1.2 =
+* Added title tag via add theme support
+* Bug Fixed: Homepage Category Conditions (Reporter by leucospis)
+* Bug Fixed: Removed unnecessary code in sidebar options meta (Reporter by ladonnaraeh)
+* Bug Fixed: Assistive text
+* Bug Fixed: Secondary Menu anchor ID
+* Changed customizer button color
+* Removed unnecessary file catchbase-customizer-color-options.php
+* Removed unnecessary css
+
+= 1.1.1 =
+* Added hover color css Foursquare, PollDaddy and Twitch TV social icons
+* Bug Fixed: Single Post/Page Featured Image showing extra hi
+
+= 1.1 =
+* Added Foursquare, PollDaddy and Twitch TV social icons
+* Bug Fixed: Featured header image
+* Bug Fixed: Featured content width in mobile
+* Bug Fixed: Sanitize email for email output
+* Bug Fixed: Typo in content featured image
+* Bug Fixed: Primary sidebar closing tag issue
+* Removed unnecessary body_class for page-blog
+* Moved Featured content position option from Homepage/Frontpage options to featured content settings
+* Changed catchbase_footer_content_start and catchbase_footer_sidebar hook priority
+
+= 1.0 =
+* Fixed Sub-menu issue
+* Fixed featured image issue in archive pages
+* Fixed color scheme
+* Fixed frontpage category options
+* Fixed content width
+* Fixed featured content positions
+* Removed dark-noise.png image
+* Removed unnecessary header right sidebar
+* Removed default favicon and webclip icon
+* Standardize code quality
+* Updated stylesheets
+* Updated theme customizer types
+* Updated readme.txt and theme description
+* Updated genericons to version 3.3
+
+= 0.2 =
+* Initial Release in Catchthemes.com
+
+= 0.1 =
+* Submitted to WordPress.org
