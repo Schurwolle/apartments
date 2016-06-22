@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2016-06-05 15:15:50
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.8
+WORDPRESS:	4.5.2
+PHP INFO:	5.5.9-1ubuntu4.16 | SAPI: cli-server
+SERVER:		PHP 5.5.9-1ubuntu4.16 Development Server 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (-1 default) 
+MEMORY STACK: 2.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+TABLES: total:25 | filtered:0 | create:25 
+FILTERED: [] 
+SQL CREATED: 20160605_tianis_575441f5180311277160605151501_database.sql 
+SQL FILE SIZE: 2.38MB (2495487) 
+SQL FILE TIME: 2016-06-05 15:15:50 
+SQL RUNTIME: 0.46 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/schurwolle/wordpress 
+ARCHIVE FILE: 20160605_tianis_575441f5180311277160605151501_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	199.41MB 
+STATS:	Dirs 288 | Files 3,954 
+SQL ADDED: 20160605_tianis_575441f5180311277160605151501_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4242
+    [filename] => /home/schurwolle/wordpress/wp-snapshots/tmp/20160605_tianis_575441f5180311277160605151501_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 168.32MB 
+ARCHIVE RUNTIME: 44.36 sec. 
+MEMORY STACK: 3.5MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/home/schurwolle/wordpress/wp-snapshots/tmp/20160605_tianis_575441f5180311277160605151501_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 2.38MB 
+Installer File: 341.56KB 
+Archive File: 168.32MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 55.54 sec.
+PEAK PHP MEMORY USED: 6MB
+DONE PROCESSING => 20160605_tianis 2016-06-05 15:16:45
+ 
